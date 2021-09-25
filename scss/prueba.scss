@@ -389,11 +389,11 @@ footer{
         justify-content: space-around;
         align-items: center;
         width: 100%;
+        text-align: center;
 
         img{
-            max-width: 95%;
+            max-width: 85%;
             padding: 2%;
-    
         }
 
     &__partes{
@@ -406,6 +406,7 @@ footer{
             list-style-type: none;
             margin: 1%;
             padding: 0,2%; 
+            text-align: left;
         }
 
         legend{
@@ -494,6 +495,7 @@ footer{
         p.textoB{
             order: 1;
         } 
+
     }
 
     // ELABORACION 
@@ -538,14 +540,22 @@ footer{
 
         &__redesSociales{
             font-size: 90%;
+            order: 1;
         }
 
         &__Boletin{
             width: 95%;
+            order: 2;
+        }
+
+
+        &__logoFooter{
+            order: 0;
         }
     }
-
 }
+
+
 
 @media only screen and (min-width:600px) and (max-width: 992px){
 

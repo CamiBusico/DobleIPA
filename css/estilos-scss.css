@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* GENERAL  */
 * {
   margin: 0;
   padding: 0; }
@@ -108,7 +107,6 @@ footer {
       font-family: "Quicksand", sans-serif;
       font-size: 70%; }
 
-/* INDEX */
 .mainIndex {
   width: 100%;
   display: grid;
@@ -144,7 +142,6 @@ footer {
   .mainIndex .mainIndex__nuestrasBirras {
     grid-area: tipos; }
 
-/* PRODUCTOS */
 .tablaProductos {
   padding: 2%;
   margin: 2%;
@@ -198,7 +195,6 @@ footer {
   .clasesBirras__tipos .textoB {
     order: -1; }
 
-/* ELABORACION */
 #momentosElaboracion {
   padding: 2%; }
   #momentosElaboracion h2 {
@@ -216,7 +212,6 @@ footer {
     margin-right: auto;
     width: 70vw; }
 
-/* LA PREVIA  */
 .introMusica {
   text-align: center; }
 
@@ -261,15 +256,15 @@ footer {
       flex-flow: column wrap;
       align-items: center; }
 
-/* CONTACTO  */
 .mainContacto {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
   .mainContacto img {
-    max-width: 95%;
+    max-width: 85%;
     padding: 2%; }
   .mainContacto__partes {
     width: 30rem;
@@ -279,7 +274,8 @@ footer {
     .mainContacto__partes li {
       list-style-type: none;
       margin: 1%;
-      padding: 0,2%; }
+      padding: 0,2%;
+      text-align: left; }
     .mainContacto__partes legend {
       font-size: 140%;
       margin-left: 5%;
@@ -293,23 +289,19 @@ footer {
       padding: 1%;
       font-family: "Quicksand", sans-serif; }
 
-/* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
-  /* GENERAL  */
   * h1 {
     font-size: 150%; }
   * h2 {
     font-size: 150%; }
   * #logo {
     width: 90%; }
-  /* INDEX */
   .mainIndex {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     padding: 0 0 1 rem 0; }
-  /* PRODUCTOS */
   .tablaProductos__encabezados {
     font-size: 120%; }
   .tablaProductos__info {
@@ -323,37 +315,35 @@ footer {
       width: 85%; }
     .clasesBirras p.textoB {
       order: 1; }
-  /* ELABORACION */
   #momentosElaboracion p {
     font-size: 95%;
     width: 90%; }
   #momentosElaboracion #carouselExampleIndicators {
     width: 90%; }
-  /* LA PREVIA  */
   .sectionMusica iframe {
     width: 90%; }
   .sectionMusica__estilos {
     flex-flow: column wrap;
     align-items: center; }
-  /* CONTACTO  */
   .mainContacto__partes {
     font-size: 100%; }
-  /* FOOTER */
   .seccionesFooter {
     flex-direction: column;
     align-items: center; }
     .seccionesFooter__redesSociales {
-      font-size: 90%; }
+      font-size: 90%;
+      order: 1; }
     .seccionesFooter__Boletin {
-      width: 95%; } }
+      width: 95%;
+      order: 2; }
+    .seccionesFooter__logoFooter {
+      order: 0; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* GENERAL  */
   * h1 {
     font-size: 200%; }
   * h2 {
     font-size: 150%; }
-  /* INDEX */
   .mainIndex {
     display: flex;
     flex-direction: column;
@@ -362,7 +352,6 @@ footer {
     padding: 0 0 1 rem 0; }
     .mainIndex .mainIndex__birraMusica, .mainIndex .mainIndex__nuestrasBirras, .mainIndex .mainIndex__nuestrasBirras {
       width: 50%; }
-  /* PRODUCTOS */
   .tablaProductos__encabezados {
     font-size: 140%; }
   .tablaProductos__info {
@@ -376,13 +365,11 @@ footer {
       width: 85%; }
     .clasesBirras p.textoB {
       order: 1; }
-  /* ELABORACION */
   #momentosElaboracion p {
     font-size: 95%;
     width: 90%; }
   #momentosElaboracion #carouselExampleIndicators {
     width: 90%; }
-  /* LA PREVIA  */
   .sectionMusica iframe {
     width: 70%; }
   .sectionMusica__estilos {
