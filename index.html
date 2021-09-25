@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doble IPA | Más que una IPA</title>
+    <meta name="description" content="Cerveza artesanal especialemente pensada para los amantes de la IPA y los buenos momentos">
+    <meta name="keywords" content="doble ipa, ipa, cerveza, cerveza artesanal, la mejor cerveza, la mejor cerveza de buenos aires, birra, la mejor birra">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/estilo.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jura:wght@300&family=Playfair+Display+SC&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos-scss.css">
+
+</head>
+<body>
+
+
+<!-- COMIENZA EL HEADER -->
+
+    <header> 
+    
+    <!-- NAVBAR CON BOOTSTRAP -->
+
+    <nav class="navbar navbar-light " id="navegadorPrincipal" style="background-color: #F7ECC4;">
+        <div class="container-fluid" id="contenedorNav">
+
+            <!-- LOGO -->
+            <a class="navbar-brand" href="#"><a href="index.html"> <img src="images/dobleipalogo.png" alt="LOGO doble IPA" id="logo" class="animate__animated animate__slideInLeft"> </a></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- NAVBAR -->
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header" id="menuDesplegable">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" id="seccionesNav">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active " id="botonNav" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " id="botonNav" href="pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " id="botonNav" href="pages/elaboracion.html">Elaboración</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"id="botonNav"  href="pages/laPrevia.html">La Previa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " id="botonNav" href="pages/contacto.html">Contacto</a>
+                  </li>
+
+                <!-- BUSCADOR -->
+              <form class="d-flex" >
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"  >
+                <button class="button-busqueda btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    </header>
+
+<!-- COMIENZA EL MAIN -->
+
+    <main >
+      
+    <div id="mainIndex" class="mainIndex">
+            <section class="mainIndex__bienvenida">
+              <div >
+                <img src="images/fotos cerveceria/cerveceria8.png" alt="la cervecería Doble IPA" class="bienvenida">
+              </div>  
+            </section>
+
+        
+            <section class="mainIndex__birraMusica">
+              <div >
+                <h2> <a href="pages/laprevia.html"> La previa con Doble IPA</a></h2>
+                <p>Que el covid no te deje aburrido en casa, tenemos las mejores playlist para brindar con vos</p>
+                <img src="images/fotos cerveceria/birraymusica.png" alt="Birra y Música en casa">
+              </div>  
+            </section>
+
+            
+            <section class="mainIndex__nuestrasBirras">
+              <div >
+                <h2> <a href="pages/productos.html"> ¿Qué birra va más con vos?</a> </h2>
+                <p>Conocé los distintos tipos de cerveza y averiguá cuál es la ideal para vos</p>
+                <img src="images/fotos cerveceria/cerveceria2.png" alt="La mejor cerveza">
+              </div>
+            </section>
+            
+    </div>
+    </main>
+
+
+<!-- COMIENZA EL FOOTER -->
+
+    <footer>
+    
+        <div class="seccionesFooter">
+
+    <!-- REDES SOCIALES -->
+            <ul class="seccionesFooter__redesSociales">
+                <li> <a href="https://www.instagram.com" target="blank"> <i class="fab fa-instagram"></i> Instagram </a> </li>
+                <li> <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i>   Facebook </a> </li>
+                <li> <a href="https://web.whatsapp.com" target="blank"> <i class="fab fa-whatsapp"></i>   Whatsapp </a> </li>
+                <li> <a href="https://www.google.com.ar/maps" target="blank"> <i class="fas fa-map-marked-alt"></i> Ubicacion</a></li>
+            </ul>
+
+    <!-- LOGO -->
+            <a href="index.html"> <img src="images/dobleipalogo.png" alt="LOGO doble IPA" id="logo" class="seccionesFooter__logoFooter"> </a>
+
+        
+    <!-- BOLETÍN INFORMATIVO -->
+
+            <div class="seccionesFooter__Boletin">
+                <form action="">
+                    <label for="mail"> Suscribite al boletín informativo:
+                    <input type="email" name="email" class="seccionesFooter__Boletin__email" placeholder="ejemplo@email.com">
+                    </label>
+                    <input type="submit" value="Enviar" class="botones__tipos botones--tamañoMd">
+                </form>
+            </div>
+        </div>
+
+        
+        <p>Producto exclusivo para mayores de 18 años</p>
+    
+    </footer>
+
+<!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/d9d44f8e54.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

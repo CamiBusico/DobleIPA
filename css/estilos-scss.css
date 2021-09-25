@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/* GENERAL  */
+* {
+  margin: 0;
+  padding: 0; }
+  * h1 {
+    color: #772B08;
+    font-family: "Playfair Display SC", serif;
+    font-size: 250%;
+    text-align: center;
+    padding: 2%; }
+  * h2 {
+    color: #817707;
+    font-size: 200%;
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px; }
+  * p {
+    font-size: 120%;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 80%;
+    text-align: justify;
+    padding: 10px; }
+  * main {
+    background-color: #F7ECC4;
+    width: 100%;
+    padding: 1%; }
+  * #logo {
+    margin: 2%; }
+
+.botones__tipos {
+  background-color: #817707;
+  font-family: "Amatic SC", cursive;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 30px; }
+
+.botones__tipos:hover {
+  box-shadow: 3px 6px 3px black; }
+
+.botones--tamañoLg {
+  font-size: large; }
+
+.botones--tamañoMd {
+  font-size: medium; }
+
+header {
+  width: 100%;
+  background-color: #8F7F10;
+  display: flex; }
+
+#navegadorPrincipal {
+  width: 100%;
+  margin: 1%; }
+  #navegadorPrincipal #contenedorNav {
+    background-color: #8F7F10; }
+  #navegadorPrincipal #menuDesplegable {
+    background-color: #8F7F10;
+    font-family: "Quicksand", sans-serif; }
+  #navegadorPrincipal #botonNav:hover {
+    color: #772B08;
+    font-weight: bolder; }
+  #navegadorPrincipal #seccionesNav {
+    font-family: "Quicksand", sans-serif;
+    background-color: #F7ECC4;
+    font-size: 130%; }
+  #navegadorPrincipal .button-busqueda {
+    color: #772B08;
+    border-color: #772B08; }
+  #navegadorPrincipal .button-busqueda:hover {
+    color: white;
+    background-color: #772B08;
+    border-color: #772B08; }
+
+footer {
+  background-image: linear-gradient(to top, #F7ECC4, #8F7F10);
+  width: 100%; }
+  footer p {
+    text-align: center;
+    margin: 0%; }
+
+.seccionesFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; }
+  .seccionesFooter__redesSociales {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px black;
+    max-width: 100%;
+    display: inline-block;
+    margin: 2%;
+    list-style-type: none; }
+  .seccionesFooter__redesSociales a {
+    text-decoration: none;
+    color: #FFFCDA; }
+  .seccionesFooter__redesSociales a:hover {
+    color: #772B08; }
+  .seccionesFooter__Boletin {
+    font-family: "Amatic SC", cursive;
+    font-size: 130%;
+    display: inline-block;
+    margin: 2%; }
+    .seccionesFooter__Boletin__email {
+      font-family: "Quicksand", sans-serif;
+      font-size: 70%; }
+
+/* INDEX */
+.mainIndex {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 60% 40%;
+  grid-template-areas: "bienvenida bienvenida" "previa     tipos";
+  justify-items: center;
+  align-items: center; }
+  .mainIndex .mainIndex__bienvenida {
+    grid-area: bienvenida;
+    margin: 2%;
+    width: 100%; }
+    .mainIndex .mainIndex__bienvenida img {
+      width: 100%; }
+  .mainIndex .mainIndex__birraMusica, .mainIndex .mainIndex__nuestrasBirras {
+    background-color: #7e3131;
+    border-radius: 20px;
+    color: white;
+    margin: 1%;
+    grid-area: previa;
+    width: 80%; }
+    .mainIndex .mainIndex__birraMusica h2, .mainIndex .mainIndex__nuestrasBirras h2 {
+      text-align: center;
+      font-size: 200%; }
+    .mainIndex .mainIndex__birraMusica img, .mainIndex .mainIndex__nuestrasBirras img {
+      margin: 2%;
+      max-width: 95%; }
+    .mainIndex .mainIndex__birraMusica a, .mainIndex .mainIndex__nuestrasBirras a {
+      text-decoration: none;
+      color: #FFFCDA; }
+    .mainIndex .mainIndex__birraMusica a:hover, .mainIndex .mainIndex__nuestrasBirras a:hover {
+      color: #817707; }
+  .mainIndex .mainIndex__nuestrasBirras {
+    grid-area: tipos; }
+
+/* PRODUCTOS */
+.tablaProductos {
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid #772B08;
+  margin-left: auto;
+  margin-right: auto; }
+  .tablaProductos__encabezados {
+    color: #772B08;
+    font-size: 30px;
+    font-family: "Amatic SC", cursive; }
+    .tablaProductos__encabezados th {
+      padding: 10px;
+      margin: 10px; }
+  .tablaProductos__info {
+    color: #817707;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    text-decoration: none; }
+    .tablaProductos__info td {
+      padding: 10px;
+      margin: 10px; }
+    .tablaProductos__info a {
+      text-decoration: none;
+      color: #772B08; }
+    .tablaProductos__info a:hover {
+      color: #817707; }
+
+.clasesBirras img {
+  width: 45%;
+  display: inline-block; }
+
+.clasesBirras p {
+  width: 45%;
+  color: white;
+  font-size: 120%;
+  display: inline-block;
+  background-color: var(--colorCinco);
+  border-radius: 20px;
+  margin: 1%; }
+
+.clasesBirras h2 {
+  margin: 3%; }
+
+.clasesBirras__tipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; }
+  .clasesBirras__tipos .textoB {
+    order: -1; }
+
+/* ELABORACION */
+#momentosElaboracion {
+  padding: 2%; }
+  #momentosElaboracion h2 {
+    text-align: center; }
+  #momentosElaboracion p {
+    width: 70vw;
+    color: white;
+    font-size: 120%;
+    background-color: var(--colorCinco);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+  #momentosElaboracion #carouselExampleIndicators {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw; }
+
+/* LA PREVIA  */
+.introMusica {
+  text-align: center; }
+
+#navegadorMusica {
+  position: sticky;
+  top: 0px; }
+  #navegadorMusica ul {
+    background-color: #B57401;
+    border: 1px black solid; }
+  #navegadorMusica #estilosMusica {
+    color: #772B08; }
+  #navegadorMusica #estilosMusica:hover {
+    color: #F7ECC4;
+    background-color: #7e3131; }
+  #navegadorMusica #dropdownMenuLink {
+    font-family: "Quicksand", sans-serif;
+    font-size: 100%;
+    color: #F7ECC4;
+    margin: 1%;
+    padding: 1%;
+    position: sticky;
+    top: 0px;
+    background-color: #B57401;
+    border: 1px black solid; }
+
+.sectionMusica {
+  padding: 2%; }
+  .sectionMusica iframe {
+    margin: 1%; }
+  .sectionMusica h2 {
+    color: #B57401;
+    text-align: center;
+    margin: 3% 0% 2% 1%; }
+  .sectionMusica__estilos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; }
+    .sectionMusica__estilos__musicaDobleIpa {
+      margin: 2%;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center; }
+
+/* CONTACTO  */
+.mainContacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; }
+  .mainContacto img {
+    max-width: 95%;
+    padding: 2%; }
+  .mainContacto__partes {
+    width: 30rem;
+    font-family: "Quicksand", sans-serif;
+    padding: 1%;
+    margin: 1%; }
+    .mainContacto__partes li {
+      list-style-type: none;
+      margin: 1%;
+      padding: 0,2%; }
+    .mainContacto__partes legend {
+      font-size: 140%;
+      margin-left: 5%;
+      font-family: "Amatic SC", cursive; }
+    .mainContacto__partes__formContacto .botones {
+      text-align: center; }
+    .mainContacto__partes__formContacto .comentario {
+      width: 90%; }
+    .mainContacto__partes__formContacto form {
+      width: 90%;
+      padding: 1%;
+      font-family: "Quicksand", sans-serif; }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  /* GENERAL  */
+  * h1 {
+    font-size: 150%; }
+  * h2 {
+    font-size: 150%; }
+  * #logo {
+    width: 90%; }
+  /* INDEX */
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 1 rem 0; }
+  /* PRODUCTOS */
+  .tablaProductos__encabezados {
+    font-size: 120%; }
+  .tablaProductos__info {
+    font-size: 120%; }
+  .clasesBirras {
+    flex-direction: column; }
+    .clasesBirras p {
+      width: 85%;
+      font-size: 100%; }
+    .clasesBirras img {
+      width: 85%; }
+    .clasesBirras p.textoB {
+      order: 1; }
+  /* ELABORACION */
+  #momentosElaboracion p {
+    font-size: 95%;
+    width: 90%; }
+  #momentosElaboracion #carouselExampleIndicators {
+    width: 90%; }
+  /* LA PREVIA  */
+  .sectionMusica iframe {
+    width: 90%; }
+  .sectionMusica__estilos {
+    flex-flow: column wrap;
+    align-items: center; }
+  /* CONTACTO  */
+  .mainContacto__partes {
+    font-size: 100%; }
+  /* FOOTER */
+  .seccionesFooter {
+    flex-direction: column;
+    align-items: center; }
+    .seccionesFooter__redesSociales {
+      font-size: 90%; }
+    .seccionesFooter__Boletin {
+      width: 95%; } }
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  /* GENERAL  */
+  * h1 {
+    font-size: 200%; }
+  * h2 {
+    font-size: 150%; }
+  /* INDEX */
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 1 rem 0; }
+    .mainIndex .mainIndex__birraMusica, .mainIndex .mainIndex__nuestrasBirras, .mainIndex .mainIndex__nuestrasBirras {
+      width: 50%; }
+  /* PRODUCTOS */
+  .tablaProductos__encabezados {
+    font-size: 140%; }
+  .tablaProductos__info {
+    font-size: 140%; }
+  .clasesBirras {
+    flex-direction: column; }
+    .clasesBirras p {
+      width: 85%;
+      font-size: 100%; }
+    .clasesBirras img {
+      width: 85%; }
+    .clasesBirras p.textoB {
+      order: 1; }
+  /* ELABORACION */
+  #momentosElaboracion p {
+    font-size: 95%;
+    width: 90%; }
+  #momentosElaboracion #carouselExampleIndicators {
+    width: 90%; }
+  /* LA PREVIA  */
+  .sectionMusica iframe {
+    width: 70%; }
+  .sectionMusica__estilos {
+    flex-flow: column wrap;
+    align-items: center; } }

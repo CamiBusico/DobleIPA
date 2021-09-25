@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doble IPA | Cervezas Artesanales</title>
+    <meta name="description" content="Las mejores cervezas artesanales de Buenos Aires, inspiradas en la pasión por la IPA">
+    <meta name="keywords" content="doble ipa, ipa, cerveza, cerveza artesanal, la mejor cerveza, la mejor cerveza de buenos aires, birra, la mejor birra, tipos de cerveza, golden ale, blonde ale, scottish, porter">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jura:wght@300&family=Playfair+Display+SC&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos-scss.css">
+</head>
+<body>
+
+<!-- COMIENZA EL HEADER -->
+
+    <header> 
+
+
+        <!-- NAVBAR CON BOOTSTRAP -->
+
+        <nav class="navbar navbar-light " id="navegadorPrincipal" style="background-color: #F7ECC4;">
+            <div class="container-fluid" id="contenedorNav">
+    
+                <!-- LOGO -->
+                <a class="navbar-brand" href="#"><a href="../index.html"> <img src="../images/dobleipalogo.png" alt="LOGO doble IPA" id="logo" class="animate__animated animate__slideInLeft"> </a></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- NAVBAR -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header" id="menuDesplegable">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" id="seccionesNav">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="botonNav" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="botonNav" href="../pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="botonNav" href="../pages/elaboracion.html">Elaboración</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="botonNav" href="../pages/laPrevia.html">La Previa</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="botonNav" href="../pages/contacto.html">Contacto</a>
+                        </li>
+    
+                    <!-- BUSCADOR -->
+                    <form class="d-flex" >
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"  >
+                    <button class="button-busqueda btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+
+
+
+<!-- COMIENZA EL MAIN -->
+    <main>
+        <section>
+            <h1>Conocé nuestras cervezas artesanales</h1>
+            <p>Porque con una IPA no era suficiente, no te pierdas tu próxima birra favorita</p>
+            
+        
+            <!-- TABLA DE PRODUCTOS -->
+
+            <table class="tablaProductos"> 
+                <tr class="tablaProductos__encabezados">
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>ABV</th>
+                </tr>
+                <tr class="tablaProductos__info"> 
+                    <td>  <a href="#catedral"> Catedral  </a></td>
+                    <td>Doble IPA</td>
+                    <td>10%</td>
+
+                </tr>
+                <tr class="tablaProductos__info">
+                    <td> <a href="#leñas"> Leñas </a></td>
+                    <td>American IPA</td>
+                    <td>6.5%</td>
+                </tr>
+                <tr class="tablaProductos__info">
+                    <td> <a href="#castor"> Castor</a></td>
+                    <td>Golden Ale</td>
+                    <td>5.2%</td>
+                </tr>
+                <tr class="tablaProductos__info">
+                    <td> <a href="#caviahue">Caviahue </a></td>
+                    <td>Blonde Ale</td>
+                    <td>4.8%</td>
+                </tr>
+                <tr class="tablaProductos__info">
+                    <td> <a href="#chapelco"> Chapelco</a></td>
+                    <td>Scottish Heavy</td>
+                    <td>6.2%</td>
+                </tr>
+                <tr class="tablaProductos__info"> 
+                    <td> <a href="#bayo"> Bayo</a></td>
+                    <td>American Porter</td>
+                    <td>7.2%</td>
+                </tr>
+
+            </table>
+    
+        </section>
+
+
+        <!-- INFO DE BIRRAS -->
+
+        <section  class="clasesBirras">
+            
+            <h2 id="catedral">Doble IPA Catedral</h2>
+            <article  class="clasesBirras__tipos">
+                <img src="../images/fotos birras/dobleipafoto.png" alt="cerveza Doble IPA" class="fotoA">
+
+                <p class="textoA">
+                    Ella es nuestra birra favorita, la especialidad de la casa.
+                    Las cervezas de estilo Double IPA son bastante fuertes e intensamente lupuladas pero limpias, secas y sin asperezas. 
+                    Esta no debería ser una cerveza pesada que se tome a sorbos. 
+                    <br>
+                    Desarrollada por primera vez a finales de la década de 1990, 
+                    reflejando la tendencia de los cerveceros artesanales americanos de “presionar el límite”, 
+                    satisfaciendo las necesidades de los aficionados al lúpulo en su búsqueda de productos intensos. 
+                    Se volvió más común y popular durante la década de 2000 e inspiró aún más la creatividad de las IPA.
+                    <br>
+                    Azúcares y otros adjuntos altamente fermentables son usados habitualmente para incrementar la atenuación, al igual que descansos a bajas temperaturas durante la maceración. 
+                    Se puede utilizar una compleja mezcla de variedades de lúpulo.
+                </p>
+            </article>
+
+            <h2 id="leñas">American IPA Leñas</h2>
+            <article class="clasesBirras__tipos">
+                
+                <img src="../images/fotos birras/ipafoto.png" alt="cerveza IPA" class="fotoB">
+                <P class="textoB">
+                    Es una cerveza lupulada y amarga, moderadamente fuerte. 
+                    El balance es hacia el lúpulo, con un perfil de fermentación limpio, final seco y malta de soporte limpia, 
+                    que permite a una creativa gama de carácter a lúpulo brillar a través de ella.
+                    <br>
+                    Desde el siglo XVIII, la cerveza ya era una preciada bebida y los ingleses transportaban grandes cargamentos hasta las Indias Orientales. 
+                    No era fácil, los barcos debían circunnavegar el continente africano para llegar y esta se echaba a perder.
+                    George Hodson, (cervecero londinense), se propuso crear una cerveza capaz de soportar estas condiciones adversas y comenzó a exportar una fuerte Pale Ale. 
+                    Esta contenía un mayor nivel de alcohol y mayor presencia de lúpulo.
+                    <br>
+                    Luego, desarrollaron una cerveza con un mejor sabor. 
+                    Debido, entre otras cosas, al agua con que se producía. 
+                    Pronto comenzó a ser llamada India Pale Ale o simplemente IPA.
+                </p>
+            </article>
+
+            <h2 id="castor">Golden Ale Castor</h2>
+            <article  class="clasesBirras__tipos">
+                
+                <img src="../images/fotos birras/goldenfoto.png" alt="cerveza Golden" class="fotoA">
+                <p class="textoA">
+                    La cerveza belga Golden Ale fue creada a finales de la Primera Guerra Mundial por la cervecería Moortgat en Bélgica.
+                    <br>
+                    Es ligera, de carácter maltoso dulce, con poca presencia del lúpulo en el que tendrá básicamente caracteres frutales. 
+                    No es demasiado amarga y en cuanto al alcohol oscilarán entre los 4 y 5 grados.
+                    <br>
+                    La cerveza en aspecto no es rubia, sino muy dorada como lingotes de oro.
+                    Un suave sabor a cereal hace el soporte dulce para la combinación de lúpulos que entregan frescas notas cítricas y florales, cuerpo medio y agradable espuma.
+                </p>
+            </article>
+
+            <h2 id="caviahue">Blonde Ale Caviahue</h2>
+            <article  class="clasesBirras__tipos">
+                
+                <img src="../images/fotos birras/blondealefoto.png" alt="cerveza Blonde" class="fotoB">
+                <p class="textoB">
+                    Las cervezas de estilo Blonde Ale son fáciles de beber y accesibles, frecuentemente con interesantes notas a fruta, lúpulo o carácter de malta. 
+                    Bien balanceadas y limpias, es una pinta refrescante sin sabores agresivos.
+                    Amargor medio, balanceando al alcohol.
+                    <br>
+                    Color de dorado claro a dorado profundo. Generalmente muy cristalina. Espuma de blanca a blancuzca densa y cremosa.
+                    <br>
+                    inicialmente su historia es bastante corta, desde mediados de la década de 1970, 
+                    pero las raíces se remontan a unos 400 años cuando los colonos llegaron al "nuevo mundo" trayendo cervezas de sus países de origen, Inglaterra y Dinamarca.
+                </p>
+            </article>
+
+            <h2 id="chapelco">Scottish Heavy Chapelco</h2>
+            <article  class="clasesBirras__tipos">
+                
+                <img src="../images/fotos birras/scottishheavyfoto.png" alt="cerveza Scottish" class="fotoA">
+                <p class="textoA">
+                    Estas cervezas están centradas en la malta, generalmente acarameladas con quizás algunos. 
+                    Los lúpulos sólo son utilizados para balancear y apoyar la malta. El carácter a malta puede variar de seco y a grano, a rico, tostado y acaramelado, pero nunca quemado. 
+                    Cerveza de cuerpo entre bajo y medio.
+                    <br>
+                    Se cree que empezaron a elaborarse en Bélgica durante la Primera Guerra Mundial para los soldados británicos allí destinados.
+                    <br>
+                    Originalmente utilizaba maltas pale escocesas, sémola o maíz en hojuelas y caramelo de cervecería para el color. 
+                    Más tarde adaptó el uso de ingredientes adicionales tales como maltas ámbar o marrones, maltas cristal y de trigo, 
+                    granos tostados o azúcares oscuras para color, pero no para sabor ‘tostado’. 
+                </p>
+                
+            </article>
+
+            <h2 id="bayo">American Porter Bayo</h2>
+            <article  class="clasesBirras__tipos">
+                
+                <img src="../images/fotos birras/negrafoto.png" alt="cerveza Porter" class="fotoB">
+                <p class="textoB">
+                    Son maltosas, oscuras y sustanciales, con carácter complejo y lleno de sabor a malta oscura.
+                    <br>
+                    Su sabor moderado a pan, bizcocho y malta tostada incluye una sensación torrefacta entre suave y moderada, 
+                    frecuentemente con reminiscencias al chocolate, y a menudo también con un carácter significativo de caramelo, nuez y tofe.
+                    Aunque el gusto a quemado o a torrefacto no debería predominar, unas leves notas pueden contribuir a la complejidad del chocolate amargo.
+                    <br>
+                    La mayoría de las referencias históricas sitúan al año 1722 como el del surgfimiento de la Porter.
+                    Pronto se hizo popular entre la clase trabajadora, y adquirió su nombre debido a que era particularmente popular entre los porteros ("Porter" en ingés)
+                    que trabajaban en los mercados locales, quienes solían entregar diversos productos en las puertas de los pubs.
+                </p>
+            </article>
+
+
+
+        </section>
+
+    </main>
+
+
+<!-- COMIENZA EL FOOTER -->
+
+    <footer>
+        <div class="seccionesFooter">
+
+    <!-- REDES SOCIALES -->
+
+            <ul class="seccionesFooter__redesSociales">
+                <li> <a href="https://www.instagram.com" target="blank"> <i class="fab fa-instagram"></i> Instagram </a> </li>
+                <li> <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i> Facebook </a> </li>
+                <li> <a href="https://web.whatsapp.com" target="blank"> <i class="fab fa-whatsapp"></i> Whatsapp </a> </li>
+                <li> <a href="https://www.google.com.ar/maps" target="blank"> <i class="fas fa-map-marked-alt"></i> Ubicacion</a></li>
+            </ul>
+
+    <!-- LOGO -->
+            <a href="../index.html"> <img src="../images/dobleipalogo.png" alt="LOGO doble IPA" id="logo" class="seccionesFooter__logoFooter"> </a>
+
+        
+    <!-- BOLETÍN INFORMATIVO -->
+
+            <div class="seccionesFooter__Boletin">
+                <form action="">
+                    <label for="mail"> Suscribite al boletín informativo:
+                    <input type="email" name="email" class="seccionesFooter__Boletin__email" placeholder="ejemplo@email.com">
+                    </label>
+                    <input type="submit" value="Enviar" class="botones__tipos botones--tamañoMd">
+                </form>
+            </div>
+        </div>
+        <p>Producto exclusivo para mayores de 18 años</p>
+
+    
+    </footer>
+
+<!-- SCRIPTS -->
+<script src="https://kit.fontawesome.com/d9d44f8e54.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
