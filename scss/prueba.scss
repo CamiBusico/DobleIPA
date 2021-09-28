@@ -270,7 +270,7 @@ footer{
     p{
         @include parrafos(45%, white, 120%);
         display:inline-block;
-        background-color: var(--colorCinco);
+        background-color: $color-Cinco;
         border-radius:20px;
         margin: 1%;
     }
@@ -303,7 +303,7 @@ footer{
 
     p{
         @include parrafos(70vw, white, 120%);
-        background-color: var(--colorCinco);
+        background-color: $color-Cinco;
         border-radius:20px;
         margin-left: auto;
         margin-right: auto;
