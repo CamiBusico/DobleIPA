@@ -279,7 +279,8 @@ footer {
     .mainContacto__partes legend {
       font-size: 140%;
       margin-left: 5%;
-      font-family: "Amatic SC", cursive; }
+      font-family: "Amatic SC", cursive;
+      text-align: left; }
     .mainContacto__partes__formContacto .botones {
       text-align: center; }
     .mainContacto__partes__formContacto .comentario {
