@@ -334,7 +334,7 @@ footer {
     .seccionesFooter__redesSociales {
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       font-size: 90%;
       order: 1;
       width: 90%;
@@ -342,9 +342,6 @@ footer {
       .seccionesFooter__redesSociales li {
         padding: 2%; }
     .seccionesFooter__Boletin {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
       width: 95%;
       order: 2; }
     .seccionesFooter__logoFooter {
