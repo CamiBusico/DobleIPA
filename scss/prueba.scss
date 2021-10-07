@@ -309,6 +309,12 @@ footer{
         margin-right: auto;
     }
 
+    .carousel{
+        width: 70vw; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 // LA PREVIA  
@@ -502,7 +508,7 @@ footer{
         width: 90%;
         }
 
-        #carouselExampleIndicators{
+        .carousel{
             width: 90%;
         }
     }
@@ -630,7 +636,7 @@ footer{
             width: 90%;
         }
 
-        #carouselExampleIndicators{
+        .carousel{
             width: 90%;
         }
     } 

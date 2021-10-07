@@ -207,6 +207,10 @@ footer {
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto; }
+  #momentosElaboracion .carousel {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto; }
 
 .introMusica {
   text-align: center; }
@@ -315,7 +319,7 @@ footer {
   #momentosElaboracion p {
     font-size: 95%;
     width: 90%; }
-  #momentosElaboracion #carouselExampleIndicators {
+  #momentosElaboracion .carousel {
     width: 90%; }
   .sectionMusica iframe {
     width: 90%; }
@@ -372,7 +376,7 @@ footer {
   #momentosElaboracion p {
     font-size: 95%;
     width: 90%; }
-  #momentosElaboracion #carouselExampleIndicators {
+  #momentosElaboracion .carousel {
     width: 90%; }
   .sectionMusica iframe {
     width: 70%; }
